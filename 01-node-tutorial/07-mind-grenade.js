@@ -5,4 +5,5 @@ function addValues() {
   console.log(`the sum is : ${num1 + num2}`)
 }
 
+// if function is invoked, it is exported
 addValues()

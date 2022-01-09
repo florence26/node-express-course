@@ -1,7 +1,7 @@
 const { readFile, writeFile } = require('fs')
 
 console.log('start')
-readFile('./content/first.txt', 'utf8', (err, result) => {
+readFile('./content/first.txt', 'utf8', (err, result) => { //need utf8 coding because if it doesn't, it returns a buffer
   if (err) {
     console.log(err)
     return
