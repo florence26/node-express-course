@@ -23,3 +23,10 @@ const sayHi = (name) => {
 }
 
 sayHi('susan')
+
+
+// in package.json
+/* "scripts": {
+    "start": "node app.js", //automatically runs node app.js when you type "npm run start"
+    "dev": "nodemon app.js" //automatically runs nodemon app.js when you type "npm run //dev"
+  }, */

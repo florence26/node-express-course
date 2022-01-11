@@ -10,3 +10,5 @@ writeFileSync(
 )
 console.log('done with this task')
 console.log('starting the next one')
+
+// synchronous, therefore prints 'start', 'done with this task' then 'starting the next one'

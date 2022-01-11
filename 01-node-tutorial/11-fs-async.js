@@ -27,3 +27,5 @@ readFile('./content/first.txt', 'utf8', (err, result) => { //need utf8 coding be
   })
 })
 console.log('starting next task')
+
+// asynchronous, therefore prints 'start', 'starting the next one' then 'done with this task'
